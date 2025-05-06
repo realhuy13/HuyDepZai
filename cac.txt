@@ -1,0 +1,153 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Quchuy",
+         Animation = "Premium"
+         },
+        Key = {
+        KeySystem = true,
+        Title = "Key cu ơi",
+        Description = "",
+        KeyLink = "",
+        Keys = {"huycommback"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=125996632115264",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Farm"})
+     local Tab2o = MakeTab({Name = "hop sever"})
+     local Tab3o = MakeTab({Name = "Kaitun"})
+--- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "W azure",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+
+AddButton(Tab1o, {
+     Name = "Rubu",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/RuBuV4.lua"))()
+  end
+  })
+
+AddButton(Tab1o, {
+   Name = "Min gamming",
+    Callback = function()
+	  local Settings = {
+ JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinCE"))()
+  end
+  })
+
+AddButton(Tab2o, {
+   Name = "Min hop boss",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopBoss"))()
+  end
+  })
+
+AddButton(Tab2o, {
+Name = "Min hop ttk",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
+  end
+  })
+
+AddButton(Tab1o, {
+Name = "Xeter",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+getgenv().Version = "V1"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/main/Xeter.lua"))()
+  end
+  })
+
+AddButton(Tab1o, {
+Name = "Bapred",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
+  end
+  })
+
+AddButton(Tab1o, {
+Name = "Doraemon",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obfmoonsec/Masterhub/refs/heads/main/obf"))()
+  end
+  })
+
+AddButton(Tab1o, {
+Name = "Xero",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+  end
+  })
