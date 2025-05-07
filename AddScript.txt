@@ -35,9 +35,8 @@ local Tabs = {
         Main0=Window:AddTab({ Title="Thông Tin" }),
         Main1=Window:AddTab({ Title="Script Farm" }),
         Main2=Window:AddTab({ Title="Hop" })
-        Main3=Window:AddTab({ Title="Kaitun" }),
-        Main4=Window:AddTab({ Title="Fix Lag" }),
-        Main5=Window:AddTab({ Title="Cửa hàng" }),
+        Main3=Window:AddTab({ Title="Cửa hàng" }),
+        Main4=Window:AddTab({ Title="Fix Lag" }
 }
     Tabs.Main0:AddButton({
     Title = "Facebook",
@@ -145,33 +144,6 @@ Tabs.Main1:AddButton({
   end
 })
 
-
-Tabs.Main3:AddButton({
-    Title="Mukuro Kaitun",
-    Description="",
-    Callback=function()
-     getgenv().Mode = "OneClick"
-getgenv().Setting = {
-    ["Team"] = "Marines", -- Options "Pirates", "Marines"
-    ["FucusOnLevel"] = true,
-    ["Fruits"] = {  -- setting for fruits u want
-        ["Primary"] = { -- if current fruit is not in this list, eat/buy
-            "Dragon-Dragon",
-            -- u can configs add mores/remove and must end with , (comma symbol)
-        },
-        ["Normal"] = { -- it just a normal fruit list
-            "Dragon-Dragon",
-            -- u can configs add mores/remove and must end with , (comma symbol)
-        }
-        -- run this for get all fruit name `local t={};for _,v in pairs(game.ReplicatedStorage.Remotes.CommF_:InvokeServer("GetFruits"))do table.insert(t,`"{v.Name}"`)end;setclipboard(table.concat(t, "\n"))`
-    },
-    ["IdleCheck"] = 150, -- every (x) seconds if not moving rejoin
-};
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/QuartyzScript/main/Loader.lua"))()
-  end
-})
-
 Tabs.Main4:AddButton({
     Title="Fix Lag",
     Description="",
@@ -181,9 +153,9 @@ Tabs.Main4:AddButton({
 })
 
 Tabs.Main5:AddButton({
-    Title = "Godhuman",
+    Title="Godhuman",
     Description = "",
     Callback = function()
-        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman");
-    end
-});
+     game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman")
+  end
+})
