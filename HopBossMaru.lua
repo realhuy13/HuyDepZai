@@ -15,6 +15,38 @@ I:AddButton({
     end
 })
 
-local I1 = T2:AddSection("Right", {
-    Name = "Rip_indra (Wait Update)"
+local I1 = T2:AddSection("Left", {
+    Name = "Hop Boss"
+})
+
+I:AddButton({
+    Name = "Rip_indra (Wait Update)",
+    Callback = function()
+        setclipboard("")
+    end
+})
+
+I:AddButton({
+    Name = "Dough King (Wait Update)",
+    Callback = function()
+        setclipboard("")
+    end
+})
+
+I:AddButton({
+    Name = "Dark Black (Wait Update)",
+    Callback = function()
+        setclipboard("")
+    end
+})
+
+local I = T1:AddSection("Right", {
+    Name = "Hop Khác"
+})
+
+I:AddButton({
+    Name = "Đảo Bí Ẩn (Wait Update)",
+    Callback = function()
+        setclipboard("")
+    end
 })
