@@ -131,3 +131,50 @@ Tabs.Main1:AddButton({
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
 })
+
+Tabs.Main1:AddButton({
+    Title="BapRed",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
+  end
+})
+
+Tabs.Main4:AddButton({
+    Title="Fiy",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+  end
+})
+
+Tabs.Main5:AddButton({
+    Title="Teddy Hop",
+    Description="",
+    Callback=function()
+	  repeat task.wait() until 
+    game:IsLoaded() and 
+    game:GetService("Players") and 
+    game.Players.LocalPlayer and 
+    game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Matsune",
+    Description="",
+    Callback=function()
+	  getgenv().Team = "Pirates"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Rocye/refs/heads/main/Loading.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Matsune",
+    Description="",
+    Callback=function()
+	  getgenv().Team = "Pirates"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RealMatsune/Rolls-Rocye/refs/heads/main/Loading.lua"))()
+  end
+})
